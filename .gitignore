@@ -1,2 +1,15 @@
 arquivos  a nao serem compartilhados com o publico.
 adicionando dentro dentro desse arquivo. Para não ser compartilhado com dispositivo remoto.
+
+O principal propósito do arquivo .gitignore é impedir que arquivos indesejados ou sensíveis sejam enviados para repositórios Git remotos.
+
+Alguns exemplos de uso comuns do .gitignore incluem:
+
+
+Ignorar credenciais e segredos (chaves API, senhas de bancos de dados etc)
+Ignorar dependências e pacotes instalados que podem ser facilmente recriados, como a pasta node_modules
+Ignorar arquivos de build e distribuição binários que podem ser gerados novamente
+Ignorar arquivos de cache e logs desnecessários para o versionamento
+Ignorar arquivos temporários criados pelo editor ou tooling
+
+Dessa forma, o .gitignore ajuda a manter o repositório limpo e contendo apenas os arquivos essenciais para o funcionamento e compreensão do projeto por outros desenvolvedores.
